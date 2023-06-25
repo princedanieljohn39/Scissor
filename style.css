@@ -66,6 +66,10 @@ ul li {
     color: black;
 }
 
+.main img{
+    width: 24px;
+}
+
 .side {
     position: absolute;
     right: 90px;
@@ -769,4 +773,11 @@ input[type=submit]:hover {
 
 .grid-three .bottom {
     margin-top: 75px;
+}
+
+.section-seven .copy img{
+    width: 290px;
+    position: absolute;
+    top: 90%;
+    right: 10%;
 }
