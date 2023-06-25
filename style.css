@@ -1,0 +1,772 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "gilroy-sm";
+    src: url(assets/Gilroy-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "gilroy-m";
+    src: url(assets/Gilroy-Medium.ttf);
+}
+
+@font-face {
+    font-family: "gilroy-b";
+    src: url(assets/Gilroy-Bold.ttf);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    left: 80px;
+    top: 10px;
+    position: absolute;
+}
+
+.logo img {
+    width: 150px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-family: "gilroy-m";
+
+}
+
+nav a {
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+ul li {
+    padding: 10px;
+    padding-left: 30px;
+}
+
+.main {
+    position: absolute;
+    right: 30%;
+    top: 10px;
+    margin: 0 auto;
+}
+
+.main a {
+    color: black;
+}
+
+.side {
+    position: absolute;
+    right: 90px;
+    top: 10px;
+}
+
+.side .left {
+    background-color: #005AE2;
+    border-radius: 100px;
+    padding: 12px 24px;
+    font-size: 16px;
+    color: white;
+}
+
+.side .right {
+    color: #005AE2;
+}
+
+.first-text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 30%;
+    line-height: 80px;
+    text-align: center;
+    font-size: 45px;
+    font-family: "gilroy-b";
+}
+
+.first-text span {
+    color: #005AE2;
+}
+
+.object {
+    position: absolute;
+    top: 55%;
+    left: 44%;
+    margin: 0 auto;
+}
+
+.object img {
+    width: 173px;
+}
+
+.second-text {
+    font-family: "gilroy-m";
+    position: absolute;
+    top: 64%;
+    text-align: center;
+    margin: auto 0;
+    left: 0;
+    right: 0;
+    line-height: 28px;
+}
+
+.side-two {
+    position: absolute;
+    left: 36%;
+    top: 85%;
+    font-family: "gilroy-m";
+}
+
+.side-two li {
+    margin-left: 30px;
+}
+
+.side-two .left {
+    background-color: #005AE2;
+    border-radius: 100px;
+    padding: 12px 42px;
+    font-size: 16px;
+    color: white;
+}
+
+.side-two .right {
+    color: #005AE2;
+}
+
+.object-one {
+    position: absolute;
+    top: 100%;
+    left: 25%;
+}
+
+.object-one img {
+    width: 239px;
+}
+
+.object-two img {
+    width: 720px;
+    position: absolute;
+    top: 104%;
+    left: 25%;
+}
+
+.object-three img {
+    position: absolute;
+    width: 1260px;
+    top: 150%;
+}
+
+.section-two .head {
+    position: absolute;
+    top: 163%;
+    background-color: #F9FBFD;
+    display: flex;
+    width: 100%;
+    height: 180px;
+}
+
+.section-two .head h1 {
+    font-family: "gilroy-b";
+    font-size: 40px;
+    line-height: 48px;
+    margin-left: 100px;
+    margin-right: 140px;
+    margin-top: 40px;
+}
+
+.section-two .head h1 span {
+    color: #005AE2;
+}
+
+.other-one h3 {
+    font-family: "gilroy-sm";
+    font-size: 25px;
+}
+
+.other-one p {
+    font-family: "gilroy-m";
+}
+
+.other-one {
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.other-two h3 {
+    font-family: "gilroy-sm";
+    font-size: 25px;
+}
+
+.other-two p {
+    font-family: "gilroy-m";
+}
+
+.other-two {
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.other-three h3 {
+    font-family: "gilroy-sm";
+    font-size: 25px;
+}
+
+.other-three p {
+    font-family: "gilroy-m";
+}
+
+.other-three {
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.other-four h3 {
+    font-family: "gilroy-sm";
+    font-size: 25px;
+}
+
+.other-four p {
+    font-family: "gilroy-m";
+}
+
+.other-four {
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.body {
+    position: absolute;
+    top: 210%;
+    display: grid;
+    grid-template-columns: 900px 360px;
+}
+
+.body .main {
+    left: 7%;
+}
+
+.body .main p {
+    position: absolute;
+    left: 20px;
+    font-family: "gilroy-m";
+    line-height: 28px;
+    margin-top: 14px;
+}
+
+.body .main h1 {
+    font-size: 40px;
+    font-family: "gilroy-b";
+}
+
+.body .main h1 span {
+    color: #005AE2;
+}
+
+.main img {
+    width: 4px;
+}
+
+.main-second img {
+    width: 56px;
+    margin-bottom: 20px;
+}
+
+.main-second {
+    margin-left: 64%;
+}
+
+.main-second .one {
+    margin-top: 30px;
+}
+
+.main-second .one h3 {
+    font-size: 32px;
+}
+
+.main-second .two {
+    margin-top: 30px;
+}
+
+.main-second .two h3 {
+    font-size: 32px;
+}
+
+.body h3 {
+    font-family: "gilroy-sm";
+    margin-bottom: 10px;
+}
+
+.body p {
+    font-family: "gilroy-m";
+    line-height: 24px;
+    font-size: 15px;
+}
+
+.main-third img {
+    width: 56px;
+    margin-bottom: 20px;
+}
+
+.main-third .one {
+    margin-top: 30px;
+}
+
+.main-third .one h3 {
+    font-size: 32px;
+}
+
+.main-third .two {
+    margin-top: 30px;
+}
+
+.main-third .two h3 {
+    font-size: 32px;
+}
+
+.section-three .first-text {
+    font-family: "gilroy-b";
+    position: absolute;
+    top: 300%;
+}
+
+.section-three .first-text span {
+    color: #005AE2;
+}
+
+.section-three img {
+    width: 5px;
+    position: absolute;
+    top: 20px;
+    left: 23%;
+}
+
+.section-three p {
+    position: absolute;
+    font-family: "gilroy-m";
+    top: 314%;
+    text-align: center;
+    left: 29%;
+}
+
+.card-one {
+    width: 400px;
+    border: #005AE2 solid 0.4px;
+    border-radius: 12px;
+    position: absolute;
+    top: 350%;
+    height: 500px;
+    left: 80px;
+}
+
+.card-one p {
+    line-height: 52px;
+    font-family: "gilroy-m";
+    margin-left: 110px;
+}
+
+.card-one h3 {
+    font-size: 24px;
+    font-family: "gilroy-m";
+    font-weight: normal;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-left: 73px;
+}
+
+.card-one h1 {
+    font-family: "gilroy-b";
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-left: 73px;
+}
+
+.card-one h4 {
+    font-size: 20px;
+    font-family: "gilroy-m";
+    font-weight: normal;
+    margin-bottom: 20px;
+    margin-left: 73px;
+}
+
+.card-one img {
+    width: 20px;
+    margin-right: 10px;
+    position: absolute;
+    left: 70px;
+    margin-top: 15px;
+}
+
+.card-two {
+    width: 400px;
+    border: #005AE2 solid 0.4px;
+    border-radius: 12px;
+    position: absolute;
+    top: 350%;
+    height: 500px;
+    right: 80px;
+}
+
+.card-two p {
+    line-height: 52px;
+    font-family: "gilroy-m";
+    margin-left: 110px;
+}
+
+.card-two h3 {
+    font-size: 24px;
+    font-family: "gilroy-m";
+    font-weight: normal;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-left: 73px;
+}
+
+.card-two h1 {
+    font-family: "gilroy-b";
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-left: 73px;
+}
+
+.card-two h4 {
+    font-size: 20px;
+    font-family: "gilroy-m";
+    font-weight: normal;
+    margin-bottom: 20px;
+    margin-left: 73px;
+}
+
+.card-two img {
+    width: 20px;
+    margin-right: 10px;
+    position: absolute;
+    left: 70px;
+    margin-top: 15px;
+}
+
+.card-three {
+    width: 400px;
+    background-color: rgb(27, 51, 64);
+    color: white;
+    border-radius: 12px;
+    position: absolute;
+    top: 337%;
+    height: 650px;
+    right: 35%;
+}
+
+.card-three p {
+    line-height: 52px;
+    font-family: "gilroy-m";
+    margin-left: 110px;
+}
+
+.card-three h3 {
+    font-size: 24px;
+    font-family: "gilroy-m";
+    font-weight: normal;
+    margin-bottom: 40px;
+    margin-top: 90px;
+    margin-left: 73px;
+}
+
+.card-three h1 {
+    font-family: "gilroy-b";
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-left: 73px;
+}
+
+.card-three h4 {
+    font-size: 20px;
+    font-family: "gilroy-m";
+    font-weight: normal;
+    margin-bottom: 20px;
+    margin-left: 73px;
+}
+
+.card-three img {
+    width: 20px;
+    margin-right: 10px;
+    position: absolute;
+    left: 70px;
+    margin-top: 15px;
+}
+
+.side-three {
+    position: absolute;
+    left: 31.5%;
+    top: 460%;
+    font-family: "gilroy-m";
+}
+
+.side-three li {
+    margin-left: 20px;
+}
+
+.side-three .left {
+    border: solid #005AE2 0.7px;
+    border-radius: 100px;
+    padding: 12px 25px;
+    color: #005AE2;
+}
+
+.side-three .right {
+    background-color: #005AE2;
+    border-radius: 100px;
+    padding: 12px 48px;
+    font-size: 16px;
+    color: white;
+}
+
+.section-four {
+    width: 100%;
+    height: 481px;
+    position: absolute;
+    top: 490%;
+    background-color: rgb(27, 51, 64);
+}
+
+.section-four img {
+    width: 900px;
+}
+
+.section-four .second {
+    position: absolute;
+    top: -5%;
+    right: 0%;
+}
+
+.section-four .card {
+    background-color: white;
+    width: 420px;
+    height: 350px;
+    border-radius: 10px;
+    position: absolute;
+    top: 13%;
+    right: 34%;
+    text-align: center;
+}
+
+.first input[type=text] {
+    width: 270px;
+    border: #005AE2 1px solid;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-top: 60px;
+}
+
+.second input[type=text] {
+    width: 130px;
+    border: #005AE2 1px solid;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-top: 130px;
+    margin-right: 199px;
+}
+
+.third input[type=text] {
+    width: 90px;
+    border: #005AE2 1px solid;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-top: 16px;
+    margin-left: 180px;
+}
+
+input[type=submit] {
+    width: 304px;
+    background-color: #005AE2;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    padding: 10px 15px;
+    margin-top: -2px;
+    margin-left: 3px;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+    color: white;
+}
+
+::placeholder {
+    color: #005AE2;
+}
+
+.card p {
+    font-family: "gilroy-m";
+    color: #005AE2;
+    font-size: 13px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.section-five {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    height: 1000px;
+    width: 100%;
+    top: 570%;
+}
+
+.section-five h1 {
+    position: absolute;
+    left: 45%;
+    top: 50px;
+    font-family: "gilroy-b";
+    font-size: 40px;
+}
+
+.section-five .first img {
+    width: 4px;
+}
+
+.section-five .right img {
+    width: 300px;
+}
+
+.section-five p {
+    font-size: 14px;
+    font-family: "gilroy-m";
+}
+
+.section-five .text {
+    position: absolute;
+    top: 15%;
+    left: 25%;
+}
+
+.text p {
+    padding: 25px;
+    line-height: 30px;
+}
+
+.section-five .left img {
+    width: 300px;
+    position: absolute;
+    right: 0;
+}
+
+.section-six {
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    top: 750%;
+    background-color: rgb(27, 51, 64);
+}
+
+.section-six h1 {
+    font-size: 40px;
+    font-family: "gilroy-b";
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    color: white;
+}
+
+.section-six .left img {
+    width: 550px;
+}
+
+.section-six .right img {
+    width: 550px;
+    position: absolute;
+    right: 0;
+    top: 65.5px;
+}
+
+.section-six button {
+    position: absolute;
+    left: 40%;
+    color: white;
+    top: 65%;
+    background-color: #005AE2;
+    padding: 12px 60px;
+    border-radius: 100px;
+    border: none;
+}
+
+.section-seven {
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    top: 808%;
+    background-color: rgb(255, 255, 255);
+}
+
+.section-seven .left img {
+    width: 469px;
+    position: absolute;
+    top: 16.7%;
+}
+
+.section-seven .right img {
+    width: 469px;
+    position: absolute;
+    top: 48.3%;
+    right: 0;
+}
+
+.section-seven .grid {
+    display: flex;
+    position: absolute;
+    left: 17%;
+    top: 20%;
+}
+
+.image-box .first img {
+    width: 120px;
+}
+
+.image-box .second img{
+    width: 120px;
+    margin-top: 25px;
+}
+
+.section-seven .grid h3 {
+    font-family: "gilroy-sm";
+}
+
+.section-seven .grid p {
+    font-family: "gilroy-m";
+    margin-top: 15px;
+    line-height: 24px;
+    font-size: 15px;
+}
+
+.grid .grid-one {
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+.grid-one .bottom {
+    margin-top: 70px;
+}
+
+.grid-two {
+    margin-right: 70px;
+}
+
+.grid-two .bottom {
+    margin-top: 50px;
+}
+
+.grid-three {
+    margin-right: 70px;
+}
+
+.grid-three .bottom {
+    margin-top: 75px;
+}
